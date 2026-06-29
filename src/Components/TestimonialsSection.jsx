@@ -63,7 +63,7 @@ const testimonials = [
     name: 'Priya Sharma',
     position: 'Portfolio Manager, India',
     stars: 5,
-    text: "Dr. Mamata Dhiraj Jain has simplified complex concepts without losing depth. I now have a clear framework for evaluating property investments for multi-generational wealth preservation.",
+    text: "Mamata Dhiraj Jain has simplified complex concepts without losing depth. I now have a clear framework for evaluating property investments for multi-generational wealth preservation.",
     badge: 'Recommended to all clients'
   },
   {

@@ -1,5 +1,5 @@
 import React from 'react';
-import bookimage from '../assets/bookimg.webp'
+import bookimage from '../assets/heroimagenew.webp'
 import bgimage from '../assets/bgimage.jpg'
 import { redirectWithRef } from '../utils/redirectWithRef';
 
@@ -422,9 +422,18 @@ export default function DubaiWealthHero() {
             alignItems: 'center',
             justifyContent: 'center',
           }}>
+            {/* Yellow glow background */}
+            <div style={{
+              position: 'absolute',
+              width: '350px',
+              height: '400px',
+              background: 'rgba(200, 155, 60, 0.4)',
+              filter: 'blur(80px)',
+              borderRadius: '50%',
+              zIndex: 0,
+            }} />
 
-
-            <img loading="lazy" 
+            <img loading="lazy"
               src={bookimage}
               alt="Dubai Rental Wealth Simplified Book"
               style={{

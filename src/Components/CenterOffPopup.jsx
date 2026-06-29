@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ceo from '../assets/bookimage.png'
+import ceo from '../assets/heroimagenew.webp'
 
 export default function CenterOffPopup() {
   const [show, setShow] = useState(false);
@@ -102,7 +102,7 @@ export default function CenterOffPopup() {
         </button>
 
         <h2 style={title}>Family Office Real Estate Simplified</h2>
-        <p style={author}>By <strong>Dr. Mamata Jain</strong></p>
+        <p style={author}>By <strong>Mamata Jain</strong></p>
 
         <img src={ceo} alt="Simplified Book" style={bookImage} />
 

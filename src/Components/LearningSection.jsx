@@ -1,5 +1,5 @@
 import React from 'react'
-import bookimage from '../assets/bookimage3.webp'
+import bookimage from '../assets/heroimagenew.webp'
 import { redirectWithRef } from '../utils/redirectWithRef';
 
 // ---- COLOR PALETTE USED IN SECTION ----
@@ -182,7 +182,6 @@ const styles = `
   margin-top:74px;
   z-index: 2;
   position: relative;
-  box-shadow: none;
 }
 
 /* --- CTA BUTTON STYLING --- */
@@ -462,8 +461,17 @@ return (
           ))}
         </div>
         <div className="seven-book-col">
-
-          <img loading="lazy"  className="" src={bookimage} alt="Dubai Rental Wealth Simplified Book" />
+          {/* Yellow glow background */}
+          <div style={{
+            position: 'absolute',
+            width: '350px',
+            height: '400px',
+            background: 'rgba(200, 155, 60, 0.4)',
+            filter: 'blur(80px)',
+            borderRadius: '50%',
+            zIndex: 0,
+          }} />
+          <img loading="lazy" className="seven-book-img" src={bookimage} alt="Dubai Rental Wealth Simplified Book" />
         </div>
       </div>
       {/* --- BUTTON ADDED BELOW --- */}

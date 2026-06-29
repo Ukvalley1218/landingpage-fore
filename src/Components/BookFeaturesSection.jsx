@@ -1,5 +1,5 @@
 import React from 'react'
-import bookimage from '../assets/bookimage.webp'
+import bookimage from '../assets/heroimagenew.webp'
 import { MdMenuBook } from 'react-icons/md'
 // import { redirectWithRef } from '../utils/redirectWithRef';
 
@@ -176,14 +176,27 @@ const BookFeaturesSection = () => {
             alignItems: 'center',
             justifyContent: 'center',
             borderRadius: 38,
+            position: 'relative',
           }}
         >
-          <img loading="lazy" 
+          {/* Yellow glow background */}
+          <div style={{
+            position: 'absolute',
+            width: '300px',
+            height: '350px',
+            background: 'rgba(200, 155, 60, 0.4)',
+            filter: 'blur(70px)',
+            borderRadius: '50%',
+            zIndex: 0,
+          }} />
+          <img loading="lazy"
             src={bookimage}
             alt="Dubai Rental Wealth Simplified Book"
             style={{
               objectFit: 'cover',
-              borderRadius: '18px',
+              borderRadius: '5px',
+              position: 'relative',
+              zIndex: 1,
             }}
           />
         </div>
