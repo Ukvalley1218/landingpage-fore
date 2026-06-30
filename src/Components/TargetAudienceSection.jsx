@@ -654,7 +654,6 @@ export default function TargetAudienceSection() {
     
   "
         >
-          <img loading="lazy"  src={container} alt="" />
         </div>
 
         {/* CTA Buttons */}

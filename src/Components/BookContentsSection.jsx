@@ -521,7 +521,7 @@ export default function BookContentsSection() {
 
   return (
     <div className="book-contents-section">
-      <img loading="lazy"  src={frame} alt="" className='my-12 lg:my-0'/>
+      {/* <img loading="lazy"  src={frame} alt="" className='my-12 lg:my-0'/> */}
       {/* CTA Buttons */}
       <div className="flex flex-wrap justify-center gap-4 mb-12 lg:mb-24">
         {/* Hardcopy Button */}
