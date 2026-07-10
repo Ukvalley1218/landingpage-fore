@@ -46,7 +46,7 @@ const FAQSection = () => {
     {
       question: "Why should I trust this author?",
       answer:
-        "Dr. Mamata Dhiraj Jain is a visionary leader in Dubai’s real estate market, known for her sustainable, tech-driven projects. As the Managing Director of 1XL, she has earned recognition for her expertise and innovation. A TEDx speaker, she has received prestigious awards such as the Iconic Power Couple of the UAE and the ET Indo Global Leader Award 2025. With a PhD in FDI and Property Markets, she blends academic excellence with real-world impact.",
+        " Mamata Dhiraj Jain is a visionary leader in Dubai’s real estate market, known for her sustainable, tech-driven projects. As the Managing Director of 1XL, she has earned recognition for her expertise and innovation. A TEDx speaker, she has received prestigious awards such as the Iconic Power Couple of the UAE and the ET Indo Global Leader Award 2025. With a PhD in FDI and Property Markets, she blends academic excellence with real-world impact.",
     },
   ];
 
@@ -382,7 +382,7 @@ const FAQSection = () => {
 
           <p className="text-center text-gray-300 text-sm">
             © {new Date().getFullYear()}
-            <a href="https://drmamatajain.com/" target="blank" className="hover:text-yellow-400 cursor-pointer"> Dr. Mamata Dhiraj Jain. </a>
+            <a href="https://drmamatajain.com/" target="blank" className="hover:text-yellow-400 cursor-pointer">  Mamata Dhiraj Jain. </a>
             All Rights Reserved.
           </p>
 

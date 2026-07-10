@@ -474,7 +474,7 @@ const Footer = () => (
     </div>
     <div className="footer-divider" />
     <div className="footer-bottom">
-      © {new Date().getFullYear()} Dr. Mamata Dhiraj Jain. All rights reserved.
+      © {new Date().getFullYear()}  Mamata Dhiraj Jain. All rights reserved.
     </div>
   </footer>
 );

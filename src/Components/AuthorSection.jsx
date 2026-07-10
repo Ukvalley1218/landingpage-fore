@@ -267,7 +267,7 @@ const AuthorSection = () => {
             color: COLORS.gold,
             textDecoration: "underline",
           }}>
-            Dr. Mamata Dhiraj Jain
+             Mamata Dhiraj Jain
           </div>
           {/* Info List */}
           <ul className="author-info-list text-justify" style={{
@@ -287,7 +287,7 @@ const AuthorSection = () => {
 
             </li>
             <li>
-              A TEDx Speaker, Dr. Mamata has been honoured with several prestigious awards, including the Iconic Power Couple of the UAE by India Today Group, the NewsX Shakti Award 2025, and the ET Indo Global Leader Award 2025.
+              A TEDx Speaker,  Mamata has been honoured with several prestigious awards, including the Iconic Power Couple of the UAE by India Today Group, the NewsX Shakti Award 2025, and the ET Indo Global Leader Award 2025.
                          </li>
           </ul>
         </div>
@@ -304,7 +304,7 @@ const AuthorSection = () => {
           {/* Image above, clipped to a circle */}
           <img loading="lazy" 
             src={mainimage}
-            alt="Dr. Mamata Dhiraj Jain"
+            alt=" Mamata Dhiraj Jain"
             className=" author-image pb-12 lg:pb-0"
             
           />
@@ -317,7 +317,7 @@ const AuthorSection = () => {
           Beyond the Book: A Legacy of Impact
         </center>
         <center className="lg:text-[22px] text-[20px] text-white mt-5 text-justify">
-         Dr. Mamata Dhiraj Jain has been recognised for her academic excellence and pioneering innovations in real estate. She earned her{" "}
+          Mamata Dhiraj Jain has been recognised for her academic excellence and pioneering innovations in real estate. She earned her{" "}
           <span className="text-[#FEFC86]">PhD in 2025 </span>
          for groundbreaking research on FDI and Dubai's Property Market Evolution, establishing her as a thought leader in the industry.
           <span className="text-[#FEFC86]"> Through <span className="font-nunito">1XL </span> Ventures,</span> she holds

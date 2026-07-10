@@ -102,7 +102,7 @@ export default function CenterOffPopup() {
         </button>
 
         <h2 style={title}>Family Office Real Estate Simplified</h2>
-        <p style={author}>By <strong>Dr. Mamata Jain</strong></p>
+        <p style={author}>By <strong> Mamata Jain</strong></p>
 
         <img src={ceo} alt="Simplified Book" style={bookImage} />
 
